@@ -1,0 +1,29 @@
+
+
+=>some note is here for helping project and module=> 
+Exesample:->
+const ful=['joba','beli','seuli','genda','golap'];
+-(ful)variable er protita data access korte hole 2ta loop chalate pari
+-1.foreach() loop,
+-2.map() loop.
+full.foreach((items,index)=>{
+    console.log(items)->all data chole asbe
+})
+ful.map((items,index)=>{
+    console.log(items)->all data chole asbe but map()loop protia item k return korte thake 
+    -map()loop always array return kore 
+    const loop=full.map((items,index)=>{
+        return loop;
+    })
+    console.log(loop)
+})
+
+-NOW CREATE A DATA PROJECT:(facebook profile post er upor data create)
+1-(profile-PHOTO:create a profile photo(jini post korsen unaer photo means user-photo))
+2-(USER:user er name)
+3-(TIME:kokhon post korsen)
+4-(STATUS:post er status ki? eita ki public post naki only me post naki freinds to friends post?)
+5-(PHOTO:photo is not a data its a file but photo er URL ekta data)
+6-(LIKE:kotogula like porse? means like)
+7-(COMMENTS: means kotogula comments porse? means comments)
+
