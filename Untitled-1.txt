@@ -19,11 +19,16 @@ ful.map((items,index)=>{
 })
 
 -NOW CREATE A DATA PROJECT:(facebook profile post er upor data create)
-1-(profile-PHOTO:create a profile photo(jini post korsen unaer photo means user-photo))
+1-(profile-PHOTO:create a profile photo(jini post korsen uner photo means user-photo))
 2-(USER:user er name)
 3-(TIME:kokhon post korsen)
 4-(STATUS:post er status ki? eita ki public post naki only me post naki freinds to friends post?)
 5-(PHOTO:photo is not a data its a file but photo er URL ekta data)
 6-(LIKE:kotogula like porse? means like)
 7-(COMMENTS: means kotogula comments porse? means comments)
+
+
+-Now design project (data-twist):
+-jodi (sell price 0 thake) tahole 12000 tk color hoye jabe (red)
+- r jodi (sell price 5000 thake) tahole 12000 tk vanish hoye only sell price tai dekhabe...this is twist
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scrool-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -9,55 +9,63 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="bg-green-700">
     <h1 class="text-red-300 ml-[700px] font-bold shadow">Now Data Desing With Tailwind CSS</h1>
     <!-- This is the parent div  -->
-    <div class="container border mx-auto mt-8 flex justify-between">
+    <div class="container   mx-auto mt-8 flex justify-between">
         <!-- card-body-one  -->
-        <div class="w-1/4  border-2 h-[400px] rounded-xl mt-10 shadow mb-10 border-green-300">
-            <img src="https://interactivecaresbucket.s3.amazonaws.com/main_backend/media/DevOps_For_Beginners/DevOps-Cover-final.webp"
+        <div class="w-1/4  border-2 h-[400px] rounded-xl mt-10 shadow-md shadow-green-500/50 mb-10 border-green-300 opacity-100 cursor-pointer" id="for_img">
+            <img class="animate-pulse" src="https://interactivecaresbucket.s3.amazonaws.com/main_backend/media/DevOps_For_Beginners/DevOps-Cover-final.webp"
                 alt="">
             <div>
-                <p class="font-bold text-[20px]">UI/UX Free Course</p>
-                <p class="font-bold text-[15px]">Mainul islam</p>
-                <p class="font-bold text-[15px]">19 lessons 0 quiz</p>
+                <p class="font-bold text-[20px]" id="course-name">DeVOps Free Course</p>
+                <p class="font-bold text-[15px]" id="person-name">Mainul islam</p>
+                <p class="font-bold text-[15px]" id="course-module">19 lessons 0 quiz</p>
             </div>
             <div class=" flex justify-around mt-40 items-center">
-                <h1 class="font-bold">TK:0-00</h1>
-                <button class="bg-green-400 rounded px-2 py-1 font-bold flex">Inroll Free</button>
+                <h1 class="font-bold text-red-400" id="sell_price">TK:5000</h1>
+                <h2 class="line-through" id="regular_price">12000Tk</h2>
+                <button class="bg-green-400 rounded px-2 py-1 font-bold flex" id="admission">Students:20</button>
             </div>
+            
         </div>
+
         <!-- card-body-2  -->
-        <div class="w-1/4  border-2 h-[400px] rounded-xl mt-10 shadow border-green-300" >
+        <div class="w-1/4  border-2 h-[400px] rounded-xl mt-10 shadow-md shadow-green-500/50 border-green-300 opacity-100 cursor-pointer" >
             <img src="https://interactivecaresbucket.s3.amazonaws.com/main_backend/media/UI/UX_Free_Course/ui_ux_poster_v2.webp"
                 alt="">
             <div>
-                <p class="font-bold text-[20px]">UI/UX Free Course</p>
+                <p class="font-bold text-[20px]">DeVoPs Free Course</p>
                 <p class="font-bold text-[15px]">Mainul islam</p>
                 <p class="font-bold text-[15px]">19 lessons 0 quiz</p>
             </div>
             <div class=" flex justify-around mt-40 items-center">
                 <h1 class="font-bold">TK:0-00</h1>
+                <h2 class="line-through">10000Tk</h2>
                 <button class="bg-green-400 rounded px-2 py-1 font-bold flex">Inroll Free</button>
             </div>
         </div>
         <!-- card-body-3  -->
-        <div class="w-1/4  border-2 h-[400px] rounded-xl mt-10 shadow border-green-300">
-            <img src="https://interactivecaresbucket.s3.amazonaws.com/main_backend/media/Python_Essentials%3A_Kickstart_Your_Coding_Journey/Website-Cover.jpg"
+        <div class="w-1/4  border-2 h-[400px] rounded-xl mt-10 shadow-md shadow-green-500/50 border-green-300 opacity-100 cursor-pointer">
+            <img  src="https://interactivecaresbucket.s3.amazonaws.com/main_backend/media/Python_Essentials%3A_Kickstart_Your_Coding_Journey/Website-Cover.jpg"
                 alt="">
             <div>
-                <p class="font-bold text-[20px]">UI/UX Free Course</p>
+                <p class="font-bold text-[20px]">Python Essential Free Course</p>
                 <p class="font-bold text-[15px]">Mainul islam</p>
                 <p class="font-bold text-[15px]">19 lessons 0 quiz</p>
             </div>
             <div class=" flex justify-around mt-40 items-center">
                 <h1 class="font-bold">TK:0-00</h1>
+                <h2 class="line-through">15000Tk</h2>
                 <button class="bg-green-400 rounded px-2 py-1 font-bold flex">Inroll Free</button>
             </div>
         </div>
-    </div>
-    
+    </div> 
+
      
+    <!-- parent-div-end  -->
+     <script src="./src/design_data.js"></script>
+     <script src="./src/main_data.js"></script>
 
 </body>
 
