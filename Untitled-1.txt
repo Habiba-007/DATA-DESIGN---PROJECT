@@ -31,4 +31,9 @@ ful.map((items,index)=>{
 -Now design project (data-twist):
 -jodi (sell price 0 thake) tahole 12000 tk color hoye jabe (red)
 - r jodi (sell price 5000 thake) tahole 12000 tk vanish hoye only sell price tai dekhabe...this is twist
+-photoloading korte hobe..
+-course er name change korte hobe..
+-person name change korte hobe..
+-students number change korte hobe..
+-lessons number change korte hobe..
 
