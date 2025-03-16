@@ -37,3 +37,20 @@ ful.map((items,index)=>{
 -students number change korte hobe..
 -lessons number change korte hobe..
 
+-sailPrice condition:
+ <span class="font-bold text-red-400" >TK:5000</span>
+                <span class="line-through" >12000Tk</span>
+
+            totalPrice.innerHTML= course.sailPrice>0 [sale-price jodi boro hoy tobe sale-price and regular-price 2tai hobe] but
+            [sale-price jodi soto hoy (sale-price=0 hoy) tahole only regular price-e bosbe]
+
+
+-NOTE:ABOUT SPAN TAG-WARNING
+-eikhane html e regular price na nilew chole karon ternary condition use korle regular price html ui-a nite hobe na but
+- jodi ternary condition use na kori tahole html ui-e (amak regular price and sale price 2taii use korte hobe)..
+
+-ANother nte:
+-ekhane price tag er vitore 3ta css color use kora hoyse and 3tai kaj korse (eikhane thinking er baper ase )..
+
+-javascript Note:
+-onek somoy html ui a konow kiso na likhew only javascript-file likhe html ui e load korano jai (example: price loading section)
