@@ -54,3 +54,10 @@ ful.map((items,index)=>{
 
 -javascript Note:
 -onek somoy html ui a konow kiso na likhew only javascript-file likhe html ui e load korano jai (example: price loading section)
+
+
+-Javscript-Note:(for array-data)
+-main_data.js- e price tag ta valo kore revise korte hobe karon eikhane twist ase..
+
+
+
